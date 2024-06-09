@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="kontakt.css">
+</head>
+<body>
+    <div class="colored-section"></div>
+    <header class="header">
+        <a href="index.html" class="logo">D. Kaganov</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="fähigkeiten.html">Fähigkeiten</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="kontakt.html" class="active">Kontakt</a>
+        </nav>
+    </header>
+    
+    <div class="contact-form">
+        <form action="mailto:kaganovdaniel@gmail.com" method="post" enctype="text/plain">
+            <h2>Kontaktieren Sie mich</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Senden</button>
+        </form>
+    </div>
+</body>
+</html>

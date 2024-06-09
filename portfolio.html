@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">D. Kaganov</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="fähigkeiten.html">Fähigkeiten</a>
+            <a href="portfolio.html" class="active">Portfolio</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+    </header>
+
+    <div class="colored-section"></div>
+
+    <div class="portfolio-container">
+        <div class="project">
+            <h2>Projekt 1: BP Transfer</h2>
+            <img src="BP_Transfer.png" alt="BP Transfer Projekt">
+            <p>Ich habe ein Projekt entwickelt, das den Massenimport von Compliance-Daten aus Excel-Dateien automatisiert. Das Programm liest eine Excel-Datei ein, extrahiert numerische Werte und erstellt für jeden Wert eine angepasste XML-Datei basierend auf einer XML-Vorlage. Zusätzlich kopiert das Programm eine Archivierungsdatei und benennt sie entsprechend den extrahierten Werten um. Dies erleichtert die Verarbeitung grosser Datenmengen und spart erheblich Zeit und manuellen Aufwand. Das Projekt bietet eine benutzerfreundliche Schnittstelle, die es ermöglicht, den Prozess mehrfach durchzuführen oder das Programm nach Abschluss zu beenden.</p>
+        </div>
+        <div class="project">
+            <h2>Projekt 2: Excel Lesen</h2>
+            <img src="Excel_read.png" alt="Excel Lesen Projekt">
+            <p>Ich habe ein Python-Projekt entwickelt, das eine Excel-Datei liest und spezifische Produktnamen innerhalb einer Geschäftsgruppe überprüft. Das Skript durchsucht jede Zeile der Datei nach den Produktnamen "Storage Fast Platinum Basic" und "Managed OS Basic" und speichert die entsprechenden resourceNames. Für jede Geschäftsgruppe werden die gefundenen Produktnamen und resourceNames in einer neuen Excel-Datei zusammengefasst. Das Ergebnis wird dann in eine Excel-Datei geschrieben, die eine klare Übersicht darüber bietet, welche Produkte in welchen Geschäftsgruppen vorhanden sind. Dies erleichtert die Verwaltung und Überprüfung von Produktzugehörigkeiten erheblich und spart Zeit bei der Datenanalyse.</p>
+        </div>
+        <div class="project">
+            <h2>Projekt 3: Video-Demonstration</h2>
+            <video controls>
+                <source src="WhatsApp Video 2023-11-17 um 10.33.43_9d0e9e1b.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Ich habe eine Website entwickelt, die eine sichere Benutzerregistrierung und -anmeldung ermöglicht. Bei der Registrierung werden die Benutzerdaten erfasst und anschliessend gehasht, um die Sicherheit der gespeicherten Informationen zu gewährleisten. Diese gehashten Daten werden in der Datenbank gespeichert, wodurch ein höheres Mass an Datenschutz erreicht wird. Beim Login kann die Website diese gespeicherten Daten abrufen und überprüfen, um die Identität des Benutzers zu bestätigen. Dieses Verfahren sorgt für eine sichere und vertrauenswürdige Authentifizierung der Benutzer. Insgesamt erhöht es die Sicherheit und den Schutz sensibler Informationen auf der Website.</p>
+        </div>
+    </div>
+</body>
+</html>

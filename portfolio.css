@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #001D3D;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+.colored-section {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 65%;
+    height: 100vh;
+    background-color: #001D3D;
+    z-index: 1;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    position: relative; /* Ändere von 'absolute' zu 'relative' */
+    top: 80px; /* Füge oberen Rand hinzu, um Abstand zur fixierten Kopfzeile zu schaffen */
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+.project {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.project h2 {
+    margin-bottom: 10px;
+    color: #001D3D;
+}
+
+.project p {
+    margin-top: 10px;
+    color: #333333;
+}
+
+.project video,
+.project img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
